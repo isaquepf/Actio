@@ -1,0 +1,376 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Api/Actio.Api.csproj": {}
+  },
+  "projects": {
+    "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Api/Actio.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Api/Actio.Api.csproj",
+        "projectName": "Actio.Api",
+        "projectPath": "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Api/Actio.Api.csproj",
+        "packagesPath": "/home/isaquepf/.nuget/packages/",
+        "outputPath": "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Api/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/isaquepf/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Common/Actio.Common.csproj": {
+                "projectPath": "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Common/Actio.Common.csproj"
+              },
+              "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Domain/Actio.Domain.csproj": {
+                "projectPath": "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Domain/Actio.Domain.csproj"
+              },
+              "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Infraestructure/Actio.Infraestructure.csproj": {
+                "projectPath": "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Infraestructure/Actio.Infraestructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[5.3.2, )"
+            },
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.2, )"
+            },
+            "MassTransit.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.3.2, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[5.3.2, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Application/Actio.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Application/Actio.Application.csproj",
+        "projectName": "Actio.Application",
+        "projectPath": "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Application/Actio.Application.csproj",
+        "packagesPath": "/home/isaquepf/.nuget/packages/",
+        "outputPath": "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Application/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/isaquepf/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Common/Actio.Common.csproj": {
+                "projectPath": "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Common/Actio.Common.csproj"
+              },
+              "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Domain/Actio.Domain.csproj": {
+                "projectPath": "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Domain/Actio.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.2, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[5.3.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "masstransit": {
+              "target": "Package",
+              "version": "[5.3.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Common/Actio.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Common/Actio.Common.csproj",
+        "projectName": "Actio.Common",
+        "projectPath": "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Common/Actio.Common.csproj",
+        "packagesPath": "/home/isaquepf/.nuget/packages/",
+        "outputPath": "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Common/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/isaquepf/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[5.5.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Domain/Actio.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Domain/Actio.Domain.csproj",
+        "projectName": "Actio.Domain",
+        "projectPath": "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Domain/Actio.Domain.csproj",
+        "packagesPath": "/home/isaquepf/.nuget/packages/",
+        "outputPath": "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/isaquepf/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Common/Actio.Common.csproj": {
+                "projectPath": "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Common/Actio.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Infraestructure/Actio.Infraestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Infraestructure/Actio.Infraestructure.csproj",
+        "projectName": "Actio.Infraestructure",
+        "projectPath": "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Infraestructure/Actio.Infraestructure.csproj",
+        "packagesPath": "/home/isaquepf/.nuget/packages/",
+        "outputPath": "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Infraestructure/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/isaquepf/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Application/Actio.Application.csproj": {
+                "projectPath": "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Application/Actio.Application.csproj"
+              },
+              "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Common/Actio.Common.csproj": {
+                "projectPath": "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Common/Actio.Common.csproj"
+              },
+              "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Domain/Actio.Domain.csproj": {
+                "projectPath": "/home/isaquepf/repositories/dotnet/Actio/src/Actio.Domain/Actio.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.2, )"
+            },
+            "MassTransit.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.3.2, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[5.3.2, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.8.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "RawRabbit": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "mapster": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
