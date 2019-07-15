@@ -816,6 +816,7 @@
           "MassTransit.AspNetCore": "5.3.2",
           "MassTransit.Extensions.DependencyInjection": "5.3.2",
           "MassTransit.RabbitMQ": "5.3.2",
+          "Microsoft.AspNetCore.Authorization": "2.2.0",
           "Microsoft.AspNetCore.Hosting": "2.2.0",
           "Microsoft.Extensions.Configuration": "2.2.0",
           "MongoDB.Driver": "2.8.1",

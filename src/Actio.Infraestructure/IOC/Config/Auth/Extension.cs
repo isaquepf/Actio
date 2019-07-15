@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Actio.Infraestructure.Config.Auth
 {
@@ -17,10 +18,8 @@ namespace Actio.Infraestructure.Config.Auth
 
       services.AddSingleton<IJWTHandler, JWTHandler>();
 
-      services.AddAuthentication(opt => {
-        opt.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
-      })
-        .AddJwtBearer(config =>
+      services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+              .AddJwtBearer(config =>
         {
           config.RequireHttpsMetadata = false;
           config.SaveToken = true;
@@ -28,10 +27,12 @@ namespace Actio.Infraestructure.Config.Auth
           {
             ValidateAudience = false,
             ValidIssuer = options.Issuer,
+            ValidateIssuerSigningKey = true,
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(options.SecretKey)),
-            ValidateLifetime = true
           };
         });
+
+      services.AddAuthorization();
     }
   }
 }

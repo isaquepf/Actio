@@ -18,7 +18,7 @@ namespace Actio.Application.Handlers
     }
 
     public async Task HandleAsync(ActivityCreated @event)
-    {
+    {      
       var rq = @event.Adapt<ActivityRQ>();
       await _app.AddActivity(rq);
 

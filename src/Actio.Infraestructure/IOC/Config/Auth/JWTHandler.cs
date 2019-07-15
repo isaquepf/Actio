@@ -1,5 +1,6 @@
 using System;
 using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Text;
 using Actio.Services.Identity.Domain.Models;
 using Actio.Services.Identity.Domain.Repositories;
@@ -32,29 +33,26 @@ namespace Actio.Infraestructure.Config.Auth
 
     public JsonWebToken Create(Guid userId)
     {
-      var nowUtc = DateTime.UtcNow;
-      var expires = nowUtc.AddMinutes(_options.ExpireMinutes);
-      var centuryBegin = new DateTime(1970, 1, 1).ToUniversalTime();
-      var expiration = (long)(new TimeSpan(expires.Ticks - centuryBegin.Ticks).TotalSeconds);
-      var now = (long)(new TimeSpan(nowUtc.Ticks - centuryBegin.Ticks).TotalSeconds);
-
-      var payload = new JwtPayload
-        {
-              {"sub", userId }
-            , {"iss", _options.Issuer}
-            , {"iat", now}
-            , {"exp", expiration}
-            , {"unique_name", userId}
-        };
-
-      var jwt = new JwtSecurityToken(_jwtHeader, payload);
-      var token = _jwtSecurityHandler.WriteToken(jwt);
+      var tokenHandler = new JwtSecurityTokenHandler();
+      var tokenDescriptor = new SecurityTokenDescriptor
+      {
+        Subject = new ClaimsIdentity(new Claim[]
+          {
+                    new Claim(ClaimTypes.NameIdentifier, userId.ToString()),
+                    new Claim(JwtRegisteredClaimNames.UniqueName, userId.ToString())
+          }),
+        Expires = DateTime.UtcNow.AddDays(7),
+        Issuer = _options.Issuer,
+        SigningCredentials = _signingCredentials
+      };
+      var token = tokenHandler.CreateToken(tokenDescriptor);
+      var tokenString = tokenHandler.WriteToken(token);
 
       return new JsonWebToken
       {
-        Token = token,
-        Expires = expiration,
-        Issuer = _options.Issuer
+        Token = tokenString,
+        Issuer = _options.Issuer,
+        Expires = DateTime.UtcNow.AddDays(7).Ticks
       };
     }
   }

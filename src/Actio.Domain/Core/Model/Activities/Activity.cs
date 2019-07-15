@@ -12,7 +12,7 @@ namespace Actio.Domain.Model
     public Guid UserId { get; protected set; }
     public DateTime CreatedAt { get; protected set; }
 
-    protected Activity() { }
+    public Activity() { }
 
     public Activity(Guid id, string name, Category category, string description, Guid userId, DateTime createdAt)
     {

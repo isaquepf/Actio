@@ -22,15 +22,19 @@ namespace Actio.Application.Services
     }
 
     public async Task AddActivity(ActivityRQ request)
-    {
+    {      
       var category = await _categoryRepository.GetCategory(request.Category);
 
       if (category == null)
         throw new ActioException(code: "category_not_found", message: $"Category:'{request.Category}' was not found.");
 
-      var activity = request.Adapt<Activity>()
-                            .SetCategory(category);
+       TypeAdapterConfig<ActivityRQ, Activity>
+        .NewConfig()
+        .Ignore(dest => dest.Category);
 
+      var activity = request.Adapt<Activity>();
+      activity.SetCategory(category);
+                            
       await _activityRepository.Add(activity);
     }
 

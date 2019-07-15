@@ -11,7 +11,7 @@ namespace Actio.Api.Controllers
 {
   [Route("api/[controller]")]
   [ApiController]
-  [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+  [Authorize]
   public class ActivitiesController : ControllerBase
   {
     private readonly IBusControl _messageBus;

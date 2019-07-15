@@ -23,7 +23,7 @@ namespace Actio.Infraestructure.Repositories
     public async Task<Category> GetCategory(string name)
         => await _collection
                 .AsQueryable()
-                .FirstOrDefaultAsync(p => p.Name == name);
+                .FirstOrDefaultAsync(p => p.Name.Contains(name));
 
     public async Task<IEnumerable<Category>> ListCategories()
         => await _collection

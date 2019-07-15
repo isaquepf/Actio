@@ -10,6 +10,7 @@ using Actio.Infraestructure.Config.Mongo;
 using Actio.Infraestructure.Config.IOC;
 using Actio.Infraestructure.Config.Auth;
 
+
 namespace Actio.Api
 {
   public class Startup
@@ -26,6 +27,7 @@ namespace Actio.Api
     {
       services.AddHealthChecks();
 
+
       services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
       services.Configure<RabbitConfig>(Configuration.GetSection("Rabbit"));
@@ -36,7 +38,7 @@ namespace Actio.Api
 
       services.AddRabbitMq();
       services.AddMongoDB(provider);
-      services.AddActivities();    
+      services.AddActivities();
       services.AddJwt(provider);
     }
 
@@ -55,11 +57,13 @@ namespace Actio.Api
         app.UseHttpsRedirection();
       }
 
+
       using (var serviceScope = app.ApplicationServices.CreateScope())
       {
         serviceScope.ServiceProvider.GetService<IDataBaseInitializer>().Initialize();
       }
 
+      app.UseAuthentication();
       app.UseMvc();
     }
   }
