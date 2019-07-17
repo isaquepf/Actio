@@ -1,0 +1,275 @@
+Starting OmniSharp server at 17/07/2019 01:01:08
+    Target: /home/isaquepf/repositories/dotnet/Actio/Actio.sln
+
+OmniSharp server started.
+    Path: /home/isaquepf/.vscode/extensions/ms-vscode.csharp-1.20.0/.omnisharp/1.32.20/run
+    PID: 32111
+
+[info]: OmniSharp.Stdio.Host
+        Starting OmniSharp on ubuntu 19.4 (x64)
+[info]: OmniSharp.Services.DotNetCliService
+        DotNetPath set to dotnet
+[info]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Located 1 MSBuild instance(s)
+            1: StandAlone 15.0 - "/home/isaquepf/.vscode/extensions/ms-vscode.csharp-1.20.0/.omnisharp/1.32.20/omnisharp/.msbuild/Current/Bin"
+[info]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        MSBUILD_EXE_PATH environment variable set to '/home/isaquepf/.vscode/extensions/ms-vscode.csharp-1.20.0/.omnisharp/1.32.20/omnisharp/.msbuild/Current/Bin/MSBuild.dll'
+[info]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Registered MSBuild instance: StandAlone 15.0 - "/home/isaquepf/.vscode/extensions/ms-vscode.csharp-1.20.0/.omnisharp/1.32.20/omnisharp/.msbuild/Current/Bin"
+            MSBuildExtensionsPath = /home/isaquepf/.vscode/extensions/ms-vscode.csharp-1.20.0/.omnisharp/1.32.20/omnisharp/.msbuild
+            BypassFrameworkInstallChecks = true
+            CscToolPath = /home/isaquepf/.vscode/extensions/ms-vscode.csharp-1.20.0/.omnisharp/1.32.20/omnisharp/.msbuild/Current/Bin/Roslyn
+            CscToolExe = csc.exe
+            MSBuildToolsPath = /home/isaquepf/.vscode/extensions/ms-vscode.csharp-1.20.0/.omnisharp/1.32.20/omnisharp/.msbuild/Current/Bin
+[info]: OmniSharp.Cake.CakeProjectSystem
+        Detecting Cake files in '/home/isaquepf/repositories/dotnet/Actio'.
+[info]: OmniSharp.Cake.CakeProjectSystem
+        Could not find any Cake files
+[info]: OmniSharp.WorkspaceInitializer
+        Project system 'OmniSharp.DotNet.DotNetProjectSystem' is disabled in the configuration.
+[info]: OmniSharp.MSBuild.ProjectSystem
+        Detecting projects in '/home/isaquepf/repositories/dotnet/Actio/Actio.sln'.
+[info]: OmniSharp.MSBuild.ProjectManager
+        Queue project update for '/home/isaquepf/repositories/dotnet/Actio/src/Actio.Api/Actio.Api.csproj'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Queue project update for '/home/isaquepf/repositories/dotnet/Actio/src/Actio.Common/Actio.Common.csproj'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Queue project update for '/home/isaquepf/repositories/dotnet/Actio/src/Actio.Services.Identity/Actio.Services.Identity.csproj'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Queue project update for '/home/isaquepf/repositories/dotnet/Actio/src/Actio.Domain/Actio.Domain.csproj'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Queue project update for '/home/isaquepf/repositories/dotnet/Actio/src/Actio.Infraestructure/Actio.Infraestructure.csproj'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Queue project update for '/home/isaquepf/repositories/dotnet/Actio/src/Actio.Application/Actio.Application.csproj'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Queue project update for '/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/Actio.Api.Tests.csproj'
+[info]: OmniSharp.Script.ScriptProjectSystem
+        Detecting CSX files in '/home/isaquepf/repositories/dotnet/Actio'.
+[info]: OmniSharp.Script.ScriptProjectSystem
+        Could not find any CSX files
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.CSharpWorkspaceOptionsProvider
+[info]: OmniSharp.MSBuild.ProjectManager
+        Loading project: /home/isaquepf/repositories/dotnet/Actio/src/Actio.Api/Actio.Api.csproj
+[info]: OmniSharp.WorkspaceInitializer
+        Configuration finished.
+[info]: OmniSharp.Stdio.Host
+        Omnisharp server running using Stdio at location '/home/isaquepf/repositories/dotnet/Actio' on host 31915.
+[info]: OmniSharp.MSBuild.ProjectManager
+        Successfully loaded project file '/home/isaquepf/repositories/dotnet/Actio/src/Actio.Api/Actio.Api.csproj'.
+[info]: OmniSharp.MSBuild.ProjectManager
+        Adding project '/home/isaquepf/repositories/dotnet/Actio/src/Actio.Api/Actio.Api.csproj'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Loading project: /home/isaquepf/repositories/dotnet/Actio/src/Actio.Common/Actio.Common.csproj
+[info]: OmniSharp.MSBuild.ProjectManager
+        Successfully loaded project file '/home/isaquepf/repositories/dotnet/Actio/src/Actio.Common/Actio.Common.csproj'.
+[info]: OmniSharp.MSBuild.ProjectManager
+        Adding project '/home/isaquepf/repositories/dotnet/Actio/src/Actio.Common/Actio.Common.csproj'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Loading project: /home/isaquepf/repositories/dotnet/Actio/src/Actio.Services.Identity/Actio.Services.Identity.csproj
+[info]: OmniSharp.MSBuild.ProjectManager
+        Successfully loaded project file '/home/isaquepf/repositories/dotnet/Actio/src/Actio.Services.Identity/Actio.Services.Identity.csproj'.
+[info]: OmniSharp.MSBuild.ProjectManager
+        Adding project '/home/isaquepf/repositories/dotnet/Actio/src/Actio.Services.Identity/Actio.Services.Identity.csproj'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Loading project: /home/isaquepf/repositories/dotnet/Actio/src/Actio.Domain/Actio.Domain.csproj
+[info]: OmniSharp.MSBuild.ProjectManager
+        Successfully loaded project file '/home/isaquepf/repositories/dotnet/Actio/src/Actio.Domain/Actio.Domain.csproj'.
+[info]: OmniSharp.MSBuild.ProjectManager
+        Adding project '/home/isaquepf/repositories/dotnet/Actio/src/Actio.Domain/Actio.Domain.csproj'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Loading project: /home/isaquepf/repositories/dotnet/Actio/src/Actio.Infraestructure/Actio.Infraestructure.csproj
+[info]: OmniSharp.MSBuild.ProjectManager
+        Successfully loaded project file '/home/isaquepf/repositories/dotnet/Actio/src/Actio.Infraestructure/Actio.Infraestructure.csproj'.
+[info]: OmniSharp.MSBuild.ProjectManager
+        Adding project '/home/isaquepf/repositories/dotnet/Actio/src/Actio.Infraestructure/Actio.Infraestructure.csproj'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Loading project: /home/isaquepf/repositories/dotnet/Actio/src/Actio.Application/Actio.Application.csproj
+[info]: OmniSharp.MSBuild.ProjectManager
+        Successfully loaded project file '/home/isaquepf/repositories/dotnet/Actio/src/Actio.Application/Actio.Application.csproj'.
+[info]: OmniSharp.MSBuild.ProjectManager
+        Adding project '/home/isaquepf/repositories/dotnet/Actio/src/Actio.Application/Actio.Application.csproj'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Loading project: /home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/Actio.Api.Tests.csproj
+[info]: OmniSharp.OmniSharpWorkspace
+        Miscellaneous file: /home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/Unit/HomeControllerTest.cs added to workspace
+[info]: OmniSharp.MSBuild.ProjectManager
+        Successfully loaded project file '/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/Actio.Api.Tests.csproj'.
+[info]: OmniSharp.MSBuild.ProjectManager
+        Adding project '/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/Actio.Api.Tests.csproj'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Update project: Actio.Api
+[info]: OmniSharp.MSBuild.ProjectManager
+        Update project: Actio.Common
+[info]: OmniSharp.MSBuild.ProjectManager
+        Update project: Actio.Services.Identity
+[info]: OmniSharp.MSBuild.ProjectManager
+        Update project: Actio.Domain
+[info]: OmniSharp.MSBuild.ProjectManager
+        Update project: Actio.Infraestructure
+[info]: OmniSharp.MSBuild.ProjectManager
+        Update project: Actio.Application
+[info]: OmniSharp.MSBuild.ProjectManager
+        Update project: Actio.Api.Tests
+[info]: OmniSharp.Roslyn.CSharp.Services.Refactoring.V2.CachingCodeFixProviderForProjects
+        Skipping code fix provider 'Microsoft.CodeAnalysis.Analyzers.MetaAnalyzers.CodeFixes.ApplyDiagnosticAnalyzerAttributeFix' because it's language doesn't match 'C#'.
+[info]: OmniSharp.Roslyn.CSharp.Services.Refactoring.V2.CachingCodeFixProviderForProjects
+        Skipping code fix provider 'Xunit.Analyzers.FixProviders.MemberFixBase' because it's language doesn't match 'C#'.
+[info]: OmniSharp.Roslyn.CSharp.Services.Refactoring.V2.CachingCodeFixProviderForProjects
+        Skipping code fix provider 'Microsoft.CodeAnalysis.Analyzers.MetaAnalyzers.CodeFixes.ApplyDiagnosticAnalyzerAttributeFix' because it's language doesn't match 'C#'.
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Connected","Payload":null}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"ProtocolVersion","Payload":1}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.0 (64-bit .NET Core 4.6.27521.02)"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:01.30]   Starting:    Actio.Api.Tests"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestExecution.StatsChange","Payload":{"NewTestResults":[],"TestRunStatistics":{"ExecutedTests":0,"Stats":{}},"ActiveTests":[{"Properties":[{"Key":{"Id":"TestCase.FullyQualifiedName","Label":"FullyQualifiedName","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Actio.Api.Tests.Unit.HomeControllerTest.Home_Controller_Get_Should_Return_String_Content"},{"Key":{"Id":"TestCase.ExecutorUri","Label":"Executor Uri","Category":"","Description":"","Attributes":1,"ValueType":"System.Uri"},"Value":"executor://xunit/VsTestRunner2/netcoreapp"},{"Key":{"Id":"TestCase.Source","Label":"Source","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/bin/Debug/netcoreapp2.2/Actio.Api.Tests.dll"},{"Key":{"Id":"TestCase.CodeFilePath","Label":"File Path","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/Unit/HomeControllerTest.cs"},{"Key":{"Id":"TestCase.DisplayName","Label":"Name","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"Actio.Api.Tests.Unit.HomeControllerTest.Home_Controller_Get_Should_Return_String_Content"},{"Key":{"Id":"TestCase.Id","Label":"Id","Category":"","Description":"","Attributes":1,"ValueType":"System.Guid"},"Value":"56ce6456-1d1a-bf54-255e-38758b4d26ea"},{"Key":{"Id":"TestCase.LineNumber","Label":"Line Number","Category":"","Description":"","Attributes":1,"ValueType":"System.Int32"},"Value":13},{"Key":{"Id":"XunitTestCase","Label":"xUnit.net Test Case","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":":F:Actio.Api.Tests.Unit.HomeControllerTest:Home_Controller_Get_Should_Return_String_Content:1:0:59d96d0078fb4ce5ba376e4808394d94"}]}]}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:01.52]   Finished:    Actio.Api.Tests"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestExecution.StatsChange","Payload":{"NewTestResults":[{"TestCase":{"Properties":[{"Key":{"Id":"TestCase.FullyQualifiedName","Label":"FullyQualifiedName","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Actio.Api.Tests.Unit.HomeControllerTest.Home_Controller_Get_Should_Return_String_Content"},{"Key":{"Id":"TestCase.ExecutorUri","Label":"Executor Uri","Category":"","Description":"","Attributes":1,"ValueType":"System.Uri"},"Value":"executor://xunit/VsTestRunner2/netcoreapp"},{"Key":{"Id":"TestCase.Source","Label":"Source","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/bin/Debug/netcoreapp2.2/Actio.Api.Tests.dll"},{"Key":{"Id":"TestCase.CodeFilePath","Label":"File Path","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/Unit/HomeControllerTest.cs"},{"Key":{"Id":"TestCase.DisplayName","Label":"Name","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"Actio.Api.Tests.Unit.HomeControllerTest.Home_Controller_Get_Should_Return_String_Content"},{"Key":{"Id":"TestCase.Id","Label":"Id","Category":"","Description":"","Attributes":1,"ValueType":"System.Guid"},"Value":"56ce6456-1d1a-bf54-255e-38758b4d26ea"},{"Key":{"Id":"TestCase.LineNumber","Label":"Line Number","Category":"","Description":"","Attributes":1,"ValueType":"System.Int32"},"Value":13},{"Key":{"Id":"XunitTestCase","Label":"xUnit.net Test Case","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":":F:Actio.Api.Tests.Unit.HomeControllerTest:Home_Controller_Get_Should_Return_String_Content:1:0:59d96d0078fb4ce5ba376e4808394d94"}]},"Attachments":[],"Messages":[],"Properties":[{"Key":{"Id":"TestResult.Outcome","Label":"Outcome","Category":"","Description":"","Attributes":0,"ValueType":"Microsoft.VisualStudio.TestPlatform.ObjectModel.TestOutcome, Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"},"Value":1},{"Key":{"Id":"TestResult.ErrorMessage","Label":"Error Message","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":null},{"Key":{"Id":"TestResult.ErrorStackTrace","Label":"Error Stack Trace","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":null},{"Key":{"Id":"TestResult.DisplayName","Label":"TestResult Display Name","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Actio.Api.Tests.Unit.HomeControllerTest.Home_Controller_Get_Should_Return_String_Content"},{"Key":{"Id":"TestResult.ComputerName","Label":"Computer Name","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"dell"},{"Key":{"Id":"TestResult.Duration","Label":"Duration","Category":"","Description":"","Attributes":0,"ValueType":"System.TimeSpan"},"Value":"00:00:00.0200000"},{"Key":{"Id":"TestResult.StartTime","Label":"Start Time","Category":"","Description":"","Attributes":0,"ValueType":"System.DateTimeOffset"},"Value":"2019-07-17T01:05:38.4973611-03:00"},{"Key":{"Id":"TestResult.EndTime","Label":"End Time","Category":"","Description":"","Attributes":0,"ValueType":"System.DateTimeOffset"},"Value":"2019-07-17T01:05:38.4973618-03:00"}]}],"TestRunStatistics":{"ExecutedTests":1,"Stats":{"Passed":1}},"ActiveTests":[]}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestExecution.Completed","Payload":{"TestRunCompleteArgs":{"TestRunStatistics":{"ExecutedTests":1,"Stats":{"Passed":1}},"IsCanceled":false,"IsAborted":false,"Error":null,"AttachmentSets":[],"ElapsedTimeInRunningTests":"00:00:01.5380000","Metrics":{}},"LastRunTests":null,"RunAttachments":[],"ExecutorUris":["executor://xunit/VsTestRunner2/netcoreapp"]}}
+[info]: OmniSharp.Roslyn.CSharp.Services.Refactoring.V2.RunCodeActionService
+        Applying code action: using Xunit;
+[info]: OmniSharp.Roslyn.CSharp.Services.Refactoring.V2.RunCodeActionService
+        Applying code action: using Moq;
+[info]: OmniSharp.Roslyn.CSharp.Services.Refactoring.V2.RunCodeActionService
+        Applying code action: using MassTransit;
+[info]: OmniSharp.Roslyn.CSharp.Services.Refactoring.V2.RunCodeActionService
+        Applying code action: using Actio.Domain.Repositories;
+[info]: OmniSharp.Roslyn.CSharp.Services.Refactoring.V2.RunCodeActionService
+        Applying code action: using Actio.Api.Controllers;
+[info]: OmniSharp.Roslyn.CSharp.Services.Refactoring.V2.RunCodeActionService
+        Applying code action: using Actio.Application.Services;
+[info]: OmniSharp.Roslyn.CSharp.Services.Refactoring.V2.RunCodeActionService
+        Applying code action: System.Guid
+[info]: OmniSharp.Roslyn.CSharp.Services.Refactoring.V2.RunCodeActionService
+        Applying code action: using System;
+[info]: OmniSharp.Roslyn.CSharp.Services.Refactoring.V2.RunCodeActionService
+        Applying code action: using Microsoft.AspNetCore.Mvc;
+[info]: OmniSharp.Roslyn.CSharp.Services.Refactoring.V2.RunCodeActionService
+        Applying code action: using Microsoft.AspNetCore.Http;
+[info]: OmniSharp.Roslyn.CSharp.Services.Refactoring.V2.RunCodeActionService
+        Applying code action: using System.Security.Claims;
+[info]: OmniSharp.Roslyn.CSharp.Services.Refactoring.V2.RunCodeActionService
+        Applying code action: using Actio.Domain.Core.Commands;
+[info]: OmniSharp.Roslyn.CSharp.Services.Refactoring.V2.RunCodeActionService
+        Applying code action: using System.Threading.Tasks;
+[info]: OmniSharp.Roslyn.CSharp.Services.Refactoring.V2.RunCodeActionService
+        Applying code action: using FluentAssertions;
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Connected","Payload":null}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"ProtocolVersion","Payload":1}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.0 (64-bit .NET Core 4.6.27521.02)"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:01.56]   Starting:    Actio.Api.Tests"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestExecution.StatsChange","Payload":{"NewTestResults":[],"TestRunStatistics":{"ExecutedTests":0,"Stats":{}},"ActiveTests":[{"Properties":[{"Key":{"Id":"TestCase.FullyQualifiedName","Label":"FullyQualifiedName","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted"},{"Key":{"Id":"TestCase.ExecutorUri","Label":"Executor Uri","Category":"","Description":"","Attributes":1,"ValueType":"System.Uri"},"Value":"executor://xunit/VsTestRunner2/netcoreapp"},{"Key":{"Id":"TestCase.Source","Label":"Source","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/bin/Debug/netcoreapp2.2/Actio.Api.Tests.dll"},{"Key":{"Id":"TestCase.CodeFilePath","Label":"File Path","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/Unit/ActivitiesControllerTest.cs"},{"Key":{"Id":"TestCase.DisplayName","Label":"Name","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted"},{"Key":{"Id":"TestCase.Id","Label":"Id","Category":"","Description":"","Attributes":1,"ValueType":"System.Guid"},"Value":"6d48a440-d5e5-4790-0c9e-f33cb2c554de"},{"Key":{"Id":"TestCase.LineNumber","Label":"Line Number","Category":"","Description":"","Attributes":1,"ValueType":"System.Int32"},"Value":21},{"Key":{"Id":"XunitTestCase","Label":"xUnit.net Test Case","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":":F:Actio.Api.Tests.Unit.ActivitiesControllerTest:Activities_Controller_Post_Should_Return_Accepted:1:0:6cb9e3cf9316454088b4607786e2cdac"}]}]}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":2,"Message":"[xUnit.net 00:00:02.27]     Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted [FAIL]"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.27]       Expected subject to be System.String, but found Microsoft.AspNetCore.Mvc.AcceptedResult."}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.27]       "}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.27]       With configuration:"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.27]       - Use declared types and members"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.27]       - Compare enums by value"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.27]       - Match member by name (or throw)"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.27]       - Without automatic conversion."}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.27]       - Be strict about the order of items in byte arrays"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.27]       "}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.27]       Stack Trace:"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.27]         C:\\Workspaces\\fluentassertions\\src\\FluentAssertions\\Execution\\XUnit2TestFramework.cs(32,0): at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.27]         C:\\Workspaces\\fluentassertions\\src\\FluentAssertions\\Execution\\CollectingAssertionStrategy.cs(49,0): at FluentAssertions.Execution.CollectingAssertionStrategy.ThrowIfAny(IDictionary`2 context)"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.27]         C:\\Workspaces\\fluentassertions\\src\\FluentAssertions\\Equivalency\\EquivalencyValidator.cs(44,0): at FluentAssertions.Equivalency.EquivalencyValidator.AssertEquality(EquivalencyValidationContext context)"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.27]         /home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/Unit/ActivitiesControllerTest.cs(50,0): at Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted()"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.27]         --- End of stack trace from previous location where exception was thrown ---"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.29]   Finished:    Actio.Api.Tests"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestExecution.StatsChange","Payload":{"NewTestResults":[{"TestCase":{"Properties":[{"Key":{"Id":"TestCase.FullyQualifiedName","Label":"FullyQualifiedName","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted"},{"Key":{"Id":"TestCase.ExecutorUri","Label":"Executor Uri","Category":"","Description":"","Attributes":1,"ValueType":"System.Uri"},"Value":"executor://xunit/VsTestRunner2/netcoreapp"},{"Key":{"Id":"TestCase.Source","Label":"Source","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/bin/Debug/netcoreapp2.2/Actio.Api.Tests.dll"},{"Key":{"Id":"TestCase.CodeFilePath","Label":"File Path","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/Unit/ActivitiesControllerTest.cs"},{"Key":{"Id":"TestCase.DisplayName","Label":"Name","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted"},{"Key":{"Id":"TestCase.Id","Label":"Id","Category":"","Description":"","Attributes":1,"ValueType":"System.Guid"},"Value":"6d48a440-d5e5-4790-0c9e-f33cb2c554de"},{"Key":{"Id":"TestCase.LineNumber","Label":"Line Number","Category":"","Description":"","Attributes":1,"ValueType":"System.Int32"},"Value":21},{"Key":{"Id":"XunitTestCase","Label":"xUnit.net Test Case","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":":F:Actio.Api.Tests.Unit.ActivitiesControllerTest:Activities_Controller_Post_Should_Return_Accepted:1:0:6cb9e3cf9316454088b4607786e2cdac"}]},"Attachments":[],"Messages":[],"Properties":[{"Key":{"Id":"TestResult.Outcome","Label":"Outcome","Category":"","Description":"","Attributes":0,"ValueType":"Microsoft.VisualStudio.TestPlatform.ObjectModel.TestOutcome, Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"},"Value":2},{"Key":{"Id":"TestResult.ErrorMessage","Label":"Error Message","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"Expected subject to be System.String, but found Microsoft.AspNetCore.Mvc.AcceptedResult.\n\nWith configuration:\n- Use declared types and members\n- Compare enums by value\n- Match member by name (or throw)\n- Without automatic conversion.\n- Be strict about the order of items in byte arrays\n"},{"Key":{"Id":"TestResult.ErrorStackTrace","Label":"Error Stack Trace","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message) in C:\\Workspaces\\fluentassertions\\src\\FluentAssertions\\Execution\\XUnit2TestFramework.cs:line 32\n   at FluentAssertions.Execution.CollectingAssertionStrategy.ThrowIfAny(IDictionary`2 context) in C:\\Workspaces\\fluentassertions\\src\\FluentAssertions\\Execution\\CollectingAssertionStrategy.cs:line 49\n   at FluentAssertions.Equivalency.EquivalencyValidator.AssertEquality(EquivalencyValidationContext context) in C:\\Workspaces\\fluentassertions\\src\\FluentAssertions\\Equivalency\\EquivalencyValidator.cs:line 44\n   at Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted() in /home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/Unit/ActivitiesControllerTest.cs:line 50\n--- End of stack trace from previous location where exception was thrown ---"},{"Key":{"Id":"TestResult.DisplayName","Label":"TestResult Display Name","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted"},{"Key":{"Id":"TestResult.ComputerName","Label":"Computer Name","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"dell"},{"Key":{"Id":"TestResult.Duration","Label":"Duration","Category":"","Description":"","Attributes":0,"ValueType":"System.TimeSpan"},"Value":"00:00:00.5200000"},{"Key":{"Id":"TestResult.StartTime","Label":"Start Time","Category":"","Description":"","Attributes":0,"ValueType":"System.DateTimeOffset"},"Value":"2019-07-17T01:24:29.7231281-03:00"},{"Key":{"Id":"TestResult.EndTime","Label":"End Time","Category":"","Description":"","Attributes":0,"ValueType":"System.DateTimeOffset"},"Value":"2019-07-17T01:24:29.7231288-03:00"}]}],"TestRunStatistics":{"ExecutedTests":1,"Stats":{"Failed":1}},"ActiveTests":[]}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestExecution.Completed","Payload":{"TestRunCompleteArgs":{"TestRunStatistics":{"ExecutedTests":1,"Stats":{"Failed":1}},"IsCanceled":false,"IsAborted":false,"Error":null,"AttachmentSets":[],"ElapsedTimeInRunningTests":"00:00:02.3160000","Metrics":{}},"LastRunTests":null,"RunAttachments":[],"ExecutorUris":["executor://xunit/VsTestRunner2/netcoreapp"]}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Connected","Payload":null}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"ProtocolVersion","Payload":1}
+[info]: OmniSharp.DotNetTest.DebugSessionManager
+        Debug session started.
+[info]: OmniSharp.DotNetTest.DebugSessionManager
+        Debug session ended.
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Connected","Payload":null}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"ProtocolVersion","Payload":1}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:00.01] xUnit.net VSTest Adapter v2.4.0 (64-bit .NET Core 4.6.27521.02)"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:01.43]   Starting:    Actio.Api.Tests"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestExecution.StatsChange","Payload":{"NewTestResults":[],"TestRunStatistics":{"ExecutedTests":0,"Stats":{}},"ActiveTests":[{"Properties":[{"Key":{"Id":"TestCase.FullyQualifiedName","Label":"FullyQualifiedName","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted"},{"Key":{"Id":"TestCase.ExecutorUri","Label":"Executor Uri","Category":"","Description":"","Attributes":1,"ValueType":"System.Uri"},"Value":"executor://xunit/VsTestRunner2/netcoreapp"},{"Key":{"Id":"TestCase.Source","Label":"Source","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/bin/Debug/netcoreapp2.2/Actio.Api.Tests.dll"},{"Key":{"Id":"TestCase.CodeFilePath","Label":"File Path","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/Unit/ActivitiesControllerTest.cs"},{"Key":{"Id":"TestCase.DisplayName","Label":"Name","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted"},{"Key":{"Id":"TestCase.Id","Label":"Id","Category":"","Description":"","Attributes":1,"ValueType":"System.Guid"},"Value":"6d48a440-d5e5-4790-0c9e-f33cb2c554de"},{"Key":{"Id":"TestCase.LineNumber","Label":"Line Number","Category":"","Description":"","Attributes":1,"ValueType":"System.Int32"},"Value":21},{"Key":{"Id":"XunitTestCase","Label":"xUnit.net Test Case","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":":F:Actio.Api.Tests.Unit.ActivitiesControllerTest:Activities_Controller_Post_Should_Return_Accepted:1:0:22049ca3ea3842079dd7bdfe621e68b6"}]}]}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":2,"Message":"[xUnit.net 00:00:02.05]     Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted [FAIL]"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.05]       Expected contentResult.Location to be equivalent to "}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.05]       \"activities/0d99ed8f-b87d-40ae-b552-b2dbff5a71be\" with a length of 47, but "}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.05]       \"activities/0d99ed8f-b87d-40ae-b552-b2dbff5a71be/\" has a length of 48, differs near \"/\" (index 47)."}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.05]       Stack Trace:"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.05]         C:\\Workspaces\\fluentassertions\\src\\FluentAssertions\\Execution\\XUnit2TestFramework.cs(32,0): at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.05]         C:\\Workspaces\\fluentassertions\\src\\FluentAssertions\\Execution\\AssertionScope.cs(187,0): at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.05]         C:\\Workspaces\\fluentassertions\\src\\FluentAssertions\\Primitives\\StringEqualityValidator.cs(31,0): at FluentAssertions.Primitives.StringEqualityValidator.ValidateAgainstLengthDifferences()"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.05]         C:\\Workspaces\\fluentassertions\\src\\FluentAssertions\\Primitives\\StringValidator.cs(41,0): at FluentAssertions.Primitives.StringValidator.Validate()"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.05]         C:\\Workspaces\\fluentassertions\\src\\FluentAssertions\\Primitives\\StringAssertions.cs(100,0): at FluentAssertions.Primitives.StringAssertions.BeEquivalentTo(String expected, String because, Object[] becauseArgs)"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.05]         /home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/Unit/ActivitiesControllerTest.cs(50,0): at Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted()"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.05]         --- End of stack trace from previous location where exception was thrown ---"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.07]   Finished:    Actio.Api.Tests"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestExecution.StatsChange","Payload":{"NewTestResults":[{"TestCase":{"Properties":[{"Key":{"Id":"TestCase.FullyQualifiedName","Label":"FullyQualifiedName","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted"},{"Key":{"Id":"TestCase.ExecutorUri","Label":"Executor Uri","Category":"","Description":"","Attributes":1,"ValueType":"System.Uri"},"Value":"executor://xunit/VsTestRunner2/netcoreapp"},{"Key":{"Id":"TestCase.Source","Label":"Source","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/bin/Debug/netcoreapp2.2/Actio.Api.Tests.dll"},{"Key":{"Id":"TestCase.CodeFilePath","Label":"File Path","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/Unit/ActivitiesControllerTest.cs"},{"Key":{"Id":"TestCase.DisplayName","Label":"Name","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted"},{"Key":{"Id":"TestCase.Id","Label":"Id","Category":"","Description":"","Attributes":1,"ValueType":"System.Guid"},"Value":"6d48a440-d5e5-4790-0c9e-f33cb2c554de"},{"Key":{"Id":"TestCase.LineNumber","Label":"Line Number","Category":"","Description":"","Attributes":1,"ValueType":"System.Int32"},"Value":21},{"Key":{"Id":"XunitTestCase","Label":"xUnit.net Test Case","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":":F:Actio.Api.Tests.Unit.ActivitiesControllerTest:Activities_Controller_Post_Should_Return_Accepted:1:0:22049ca3ea3842079dd7bdfe621e68b6"}]},"Attachments":[],"Messages":[],"Properties":[{"Key":{"Id":"TestResult.Outcome","Label":"Outcome","Category":"","Description":"","Attributes":0,"ValueType":"Microsoft.VisualStudio.TestPlatform.ObjectModel.TestOutcome, Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"},"Value":2},{"Key":{"Id":"TestResult.ErrorMessage","Label":"Error Message","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"Expected contentResult.Location to be equivalent to \n\"activities/0d99ed8f-b87d-40ae-b552-b2dbff5a71be\" with a length of 47, but \n\"activities/0d99ed8f-b87d-40ae-b552-b2dbff5a71be/\" has a length of 48, differs near \"/\" (index 47)."},{"Key":{"Id":"TestResult.ErrorStackTrace","Label":"Error Stack Trace","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message) in C:\\Workspaces\\fluentassertions\\src\\FluentAssertions\\Execution\\XUnit2TestFramework.cs:line 32\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc) in C:\\Workspaces\\fluentassertions\\src\\FluentAssertions\\Execution\\AssertionScope.cs:line 187\n   at FluentAssertions.Primitives.StringEqualityValidator.ValidateAgainstLengthDifferences() in C:\\Workspaces\\fluentassertions\\src\\FluentAssertions\\Primitives\\StringEqualityValidator.cs:line 31\n   at FluentAssertions.Primitives.StringValidator.Validate() in C:\\Workspaces\\fluentassertions\\src\\FluentAssertions\\Primitives\\StringValidator.cs:line 41\n   at FluentAssertions.Primitives.StringAssertions.BeEquivalentTo(String expected, String because, Object[] becauseArgs) in C:\\Workspaces\\fluentassertions\\src\\FluentAssertions\\Primitives\\StringAssertions.cs:line 100\n   at Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted() in /home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/Unit/ActivitiesControllerTest.cs:line 50\n--- End of stack trace from previous location where exception was thrown ---"},{"Key":{"Id":"TestResult.DisplayName","Label":"TestResult Display Name","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted"},{"Key":{"Id":"TestResult.ComputerName","Label":"Computer Name","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"dell"},{"Key":{"Id":"TestResult.Duration","Label":"Duration","Category":"","Description":"","Attributes":0,"ValueType":"System.TimeSpan"},"Value":"00:00:00.4180000"},{"Key":{"Id":"TestResult.StartTime","Label":"Start Time","Category":"","Description":"","Attributes":0,"ValueType":"System.DateTimeOffset"},"Value":"2019-07-17T01:26:21.8163335-03:00"},{"Key":{"Id":"TestResult.EndTime","Label":"End Time","Category":"","Description":"","Attributes":0,"ValueType":"System.DateTimeOffset"},"Value":"2019-07-17T01:26:21.8163343-03:00"}]}],"TestRunStatistics":{"ExecutedTests":1,"Stats":{"Failed":1}},"ActiveTests":[]}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestExecution.Completed","Payload":{"TestRunCompleteArgs":{"TestRunStatistics":{"ExecutedTests":1,"Stats":{"Failed":1}},"IsCanceled":false,"IsAborted":false,"Error":null,"AttachmentSets":[],"ElapsedTimeInRunningTests":"00:00:02.0920000","Metrics":{}},"LastRunTests":null,"RunAttachments":[],"ExecutorUris":["executor://xunit/VsTestRunner2/netcoreapp"]}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Connected","Payload":null}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"ProtocolVersion","Payload":1}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.0 (64-bit .NET Core 4.6.27521.02)"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:01.44]   Starting:    Actio.Api.Tests"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestExecution.StatsChange","Payload":{"NewTestResults":[],"TestRunStatistics":{"ExecutedTests":0,"Stats":{}},"ActiveTests":[{"Properties":[{"Key":{"Id":"TestCase.FullyQualifiedName","Label":"FullyQualifiedName","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted"},{"Key":{"Id":"TestCase.ExecutorUri","Label":"Executor Uri","Category":"","Description":"","Attributes":1,"ValueType":"System.Uri"},"Value":"executor://xunit/VsTestRunner2/netcoreapp"},{"Key":{"Id":"TestCase.Source","Label":"Source","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/bin/Debug/netcoreapp2.2/Actio.Api.Tests.dll"},{"Key":{"Id":"TestCase.CodeFilePath","Label":"File Path","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/Unit/ActivitiesControllerTest.cs"},{"Key":{"Id":"TestCase.DisplayName","Label":"Name","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted"},{"Key":{"Id":"TestCase.Id","Label":"Id","Category":"","Description":"","Attributes":1,"ValueType":"System.Guid"},"Value":"6d48a440-d5e5-4790-0c9e-f33cb2c554de"},{"Key":{"Id":"TestCase.LineNumber","Label":"Line Number","Category":"","Description":"","Attributes":1,"ValueType":"System.Int32"},"Value":21},{"Key":{"Id":"XunitTestCase","Label":"xUnit.net Test Case","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":":F:Actio.Api.Tests.Unit.ActivitiesControllerTest:Activities_Controller_Post_Should_Return_Accepted:1:0:ca5cd50355bd4477958f5d1367cad5fc"}]}]}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:01.85]   Finished:    Actio.Api.Tests"}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestExecution.StatsChange","Payload":{"NewTestResults":[{"TestCase":{"Properties":[{"Key":{"Id":"TestCase.FullyQualifiedName","Label":"FullyQualifiedName","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted"},{"Key":{"Id":"TestCase.ExecutorUri","Label":"Executor Uri","Category":"","Description":"","Attributes":1,"ValueType":"System.Uri"},"Value":"executor://xunit/VsTestRunner2/netcoreapp"},{"Key":{"Id":"TestCase.Source","Label":"Source","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/bin/Debug/netcoreapp2.2/Actio.Api.Tests.dll"},{"Key":{"Id":"TestCase.CodeFilePath","Label":"File Path","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/Unit/ActivitiesControllerTest.cs"},{"Key":{"Id":"TestCase.DisplayName","Label":"Name","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted"},{"Key":{"Id":"TestCase.Id","Label":"Id","Category":"","Description":"","Attributes":1,"ValueType":"System.Guid"},"Value":"6d48a440-d5e5-4790-0c9e-f33cb2c554de"},{"Key":{"Id":"TestCase.LineNumber","Label":"Line Number","Category":"","Description":"","Attributes":1,"ValueType":"System.Int32"},"Value":21},{"Key":{"Id":"XunitTestCase","Label":"xUnit.net Test Case","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":":F:Actio.Api.Tests.Unit.ActivitiesControllerTest:Activities_Controller_Post_Should_Return_Accepted:1:0:ca5cd50355bd4477958f5d1367cad5fc"}]},"Attachments":[],"Messages":[],"Properties":[{"Key":{"Id":"TestResult.Outcome","Label":"Outcome","Category":"","Description":"","Attributes":0,"ValueType":"Microsoft.VisualStudio.TestPlatform.ObjectModel.TestOutcome, Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"},"Value":1},{"Key":{"Id":"TestResult.ErrorMessage","Label":"Error Message","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":null},{"Key":{"Id":"TestResult.ErrorStackTrace","Label":"Error Stack Trace","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":null},{"Key":{"Id":"TestResult.DisplayName","Label":"TestResult Display Name","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted"},{"Key":{"Id":"TestResult.ComputerName","Label":"Computer Name","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"dell"},{"Key":{"Id":"TestResult.Duration","Label":"Duration","Category":"","Description":"","Attributes":0,"ValueType":"System.TimeSpan"},"Value":"00:00:00.2090000"},{"Key":{"Id":"TestResult.StartTime","Label":"Start Time","Category":"","Description":"","Attributes":0,"ValueType":"System.DateTimeOffset"},"Value":"2019-07-17T01:27:01.4460347-03:00"},{"Key":{"Id":"TestResult.EndTime","Label":"End Time","Category":"","Description":"","Attributes":0,"ValueType":"System.DateTimeOffset"},"Value":"2019-07-17T01:27:01.4460354-03:00"}]}],"TestRunStatistics":{"ExecutedTests":1,"Stats":{"Passed":1}},"ActiveTests":[]}}
+[info]: OmniSharp.DotNetTest.VSTestManager
+        read: {"MessageType":"TestExecution.Completed","Payload":{"TestRunCompleteArgs":{"TestRunStatistics":{"ExecutedTests":1,"Stats":{"Passed":1}},"IsCanceled":false,"IsAborted":false,"Error":null,"AttachmentSets":[],"ElapsedTimeInRunningTests":"00:00:01.8730000","Metrics":{}},"LastRunTests":null,"RunAttachments":[],"ExecutorUris":["executor://xunit/VsTestRunner2/netcoreapp"]}}

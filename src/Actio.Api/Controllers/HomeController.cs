@@ -12,6 +12,6 @@ namespace Actio.Api.Controllers
   {
     [HttpGet()]
     public IActionResult Get()
-      => Ok(new string[] { "value1", "value2" });
+      => Content("vraw");
   }
 }

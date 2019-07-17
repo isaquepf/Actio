@@ -1,0 +1,211 @@
+----- Running test method "Actio.Api.Tests.Unit.HomeControllerTest.Home_Controller_Get_Should_Return_String_Content" -----
+
+Microsoft(R) Build Engine versão 16.0.450+ga8dc7f1d34 para .NET Core 
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+  Actio.Common -> /home/isaquepf/repositories/dotnet/Actio/src/Actio.Common/bin/Debug/netstandard2.0/Actio.Common.dll
+  Actio.Domain -> /home/isaquepf/repositories/dotnet/Actio/src/Actio.Domain/bin/Debug/netstandard2.0/Actio.Domain.dll
+  Actio.Application -> /home/isaquepf/repositories/dotnet/Actio/src/Actio.Application/bin/Debug/netstandard2.0/Actio.Application.dll
+  Actio.Infraestructure -> /home/isaquepf/repositories/dotnet/Actio/src/Actio.Infraestructure/bin/Debug/netstandard2.0/Actio.Infraestructure.dll
+  Actio.Api -> /home/isaquepf/repositories/dotnet/Actio/src/Actio.Api/bin/Debug/netcoreapp2.2/Actio.Api.dll
+  Actio.Api.Tests -> /home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/bin/Debug/netcoreapp2.2/Actio.Api.Tests.dll
+
+Compilação com êxito.
+    0 Aviso(s)
+    0 Erro(s)
+
+Tempo Decorrido 00:00:04.14
+
+
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.0 (64-bit .NET Core 4.6.27521.02)
+[xUnit.net 00:00:01.66]   Discovering: Actio.Api.Tests
+[xUnit.net 00:00:01.77]   Discovered:  Actio.Api.Tests
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.0 (64-bit .NET Core 4.6.27521.02)
+[xUnit.net 00:00:01.30]   Starting:    Actio.Api.Tests
+[xUnit.net 00:00:01.52]   Finished:    Actio.Api.Tests
+----- Test Execution Summary -----
+
+Actio.Api.Tests.Unit.HomeControllerTest.Home_Controller_Get_Should_Return_String_Content:
+    Outcome: Passed
+    
+Total tests: 1. Passed: 1. Failed: 0. Skipped: 0
+
+----- Running test method "Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted" -----
+
+Microsoft(R) Build Engine versão 16.0.450+ga8dc7f1d34 para .NET Core 
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+  Actio.Common -> /home/isaquepf/repositories/dotnet/Actio/src/Actio.Common/bin/Debug/netstandard2.0/Actio.Common.dll
+  Actio.Domain -> /home/isaquepf/repositories/dotnet/Actio/src/Actio.Domain/bin/Debug/netstandard2.0/Actio.Domain.dll
+  Actio.Application -> /home/isaquepf/repositories/dotnet/Actio/src/Actio.Application/bin/Debug/netstandard2.0/Actio.Application.dll
+  Actio.Infraestructure -> /home/isaquepf/repositories/dotnet/Actio/src/Actio.Infraestructure/bin/Debug/netstandard2.0/Actio.Infraestructure.dll
+  Actio.Api -> /home/isaquepf/repositories/dotnet/Actio/src/Actio.Api/bin/Debug/netcoreapp2.2/Actio.Api.dll
+  Actio.Api.Tests -> /home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/bin/Debug/netcoreapp2.2/Actio.Api.Tests.dll
+
+Compilação com êxito.
+    0 Aviso(s)
+    0 Erro(s)
+
+Tempo Decorrido 00:00:05.77
+
+
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.0 (64-bit .NET Core 4.6.27521.02)
+[xUnit.net 00:00:01.56]   Discovering: Actio.Api.Tests
+[xUnit.net 00:00:01.70]   Discovered:  Actio.Api.Tests
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.0 (64-bit .NET Core 4.6.27521.02)
+[xUnit.net 00:00:01.56]   Starting:    Actio.Api.Tests
+[xUnit.net 00:00:02.27]     Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted [FAIL]
+[xUnit.net 00:00:02.27]       Expected subject to be System.String, but found Microsoft.AspNetCore.Mvc.AcceptedResult.
+[xUnit.net 00:00:02.27]       
+[xUnit.net 00:00:02.27]       With configuration:
+[xUnit.net 00:00:02.27]       - Use declared types and members
+[xUnit.net 00:00:02.27]       - Compare enums by value
+[xUnit.net 00:00:02.27]       - Match member by name (or throw)
+[xUnit.net 00:00:02.27]       - Without automatic conversion.
+[xUnit.net 00:00:02.27]       - Be strict about the order of items in byte arrays
+[xUnit.net 00:00:02.27]       
+[xUnit.net 00:00:02.27]       Stack Trace:
+[xUnit.net 00:00:02.27]         C:\Workspaces\fluentassertions\src\FluentAssertions\Execution\XUnit2TestFramework.cs(32,0): at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+[xUnit.net 00:00:02.27]         C:\Workspaces\fluentassertions\src\FluentAssertions\Execution\CollectingAssertionStrategy.cs(49,0): at FluentAssertions.Execution.CollectingAssertionStrategy.ThrowIfAny(IDictionary`2 context)
+[xUnit.net 00:00:02.27]         C:\Workspaces\fluentassertions\src\FluentAssertions\Equivalency\EquivalencyValidator.cs(44,0): at FluentAssertions.Equivalency.EquivalencyValidator.AssertEquality(EquivalencyValidationContext context)
+[xUnit.net 00:00:02.27]         /home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/Unit/ActivitiesControllerTest.cs(50,0): at Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted()
+[xUnit.net 00:00:02.27]         --- End of stack trace from previous location where exception was thrown ---
+[xUnit.net 00:00:02.29]   Finished:    Actio.Api.Tests
+----- Test Execution Summary -----
+
+Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted:
+    Outcome: Failed
+    Error Message:
+    Expected subject to be System.String, but found Microsoft.AspNetCore.Mvc.AcceptedResult.
+
+With configuration:
+- Use declared types and members
+- Compare enums by value
+- Match member by name (or throw)
+- Without automatic conversion.
+- Be strict about the order of items in byte arrays
+
+    Stack Trace:
+       at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message) in C:\Workspaces\fluentassertions\src\FluentAssertions\Execution\XUnit2TestFramework.cs:line 32
+   at FluentAssertions.Execution.CollectingAssertionStrategy.ThrowIfAny(IDictionary`2 context) in C:\Workspaces\fluentassertions\src\FluentAssertions\Execution\CollectingAssertionStrategy.cs:line 49
+   at FluentAssertions.Equivalency.EquivalencyValidator.AssertEquality(EquivalencyValidationContext context) in C:\Workspaces\fluentassertions\src\FluentAssertions\Equivalency\EquivalencyValidator.cs:line 44
+   at Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted() in /home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/Unit/ActivitiesControllerTest.cs:line 50
+--- End of stack trace from previous location where exception was thrown ---
+    
+Total tests: 1. Passed: 0. Failed: 1. Skipped: 0
+
+----- Debugging test method Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted -----
+
+Microsoft(R) Build Engine versão 16.0.450+ga8dc7f1d34 para .NET Core 
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+  Actio.Common -> /home/isaquepf/repositories/dotnet/Actio/src/Actio.Common/bin/Debug/netstandard2.0/Actio.Common.dll
+  Actio.Domain -> /home/isaquepf/repositories/dotnet/Actio/src/Actio.Domain/bin/Debug/netstandard2.0/Actio.Domain.dll
+  Actio.Application -> /home/isaquepf/repositories/dotnet/Actio/src/Actio.Application/bin/Debug/netstandard2.0/Actio.Application.dll
+  Actio.Infraestructure -> /home/isaquepf/repositories/dotnet/Actio/src/Actio.Infraestructure/bin/Debug/netstandard2.0/Actio.Infraestructure.dll
+  Actio.Api -> /home/isaquepf/repositories/dotnet/Actio/src/Actio.Api/bin/Debug/netcoreapp2.2/Actio.Api.dll
+  Actio.Api.Tests -> /home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/bin/Debug/netcoreapp2.2/Actio.Api.Tests.dll
+
+Compilação com êxito.
+    0 Aviso(s)
+    0 Erro(s)
+
+Tempo Decorrido 00:00:01.68
+
+
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.0 (64-bit .NET Core 4.6.27521.02)
+[xUnit.net 00:00:01.36]   Discovering: Actio.Api.Tests
+[xUnit.net 00:00:01.48]   Discovered:  Actio.Api.Tests
+Started debugging process #3771.
+[xUnit.net 00:00:00.02] xUnit.net VSTest Adapter v2.4.0 (64-bit .NET Core 4.6.27521.02)
+[xUnit.net 00:00:04.35]   Starting:    Actio.Api.Tests
+Debugging complete.
+
+----- Running test method "Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted" -----
+
+Microsoft(R) Build Engine versão 16.0.450+ga8dc7f1d34 para .NET Core 
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+  Actio.Common -> /home/isaquepf/repositories/dotnet/Actio/src/Actio.Common/bin/Debug/netstandard2.0/Actio.Common.dll
+  Actio.Domain -> /home/isaquepf/repositories/dotnet/Actio/src/Actio.Domain/bin/Debug/netstandard2.0/Actio.Domain.dll
+  Actio.Application -> /home/isaquepf/repositories/dotnet/Actio/src/Actio.Application/bin/Debug/netstandard2.0/Actio.Application.dll
+  Actio.Infraestructure -> /home/isaquepf/repositories/dotnet/Actio/src/Actio.Infraestructure/bin/Debug/netstandard2.0/Actio.Infraestructure.dll
+  Actio.Api -> /home/isaquepf/repositories/dotnet/Actio/src/Actio.Api/bin/Debug/netcoreapp2.2/Actio.Api.dll
+  Actio.Api.Tests -> /home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/bin/Debug/netcoreapp2.2/Actio.Api.Tests.dll
+
+Compilação com êxito.
+    0 Aviso(s)
+    0 Erro(s)
+
+Tempo Decorrido 00:00:01.86
+
+
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.0 (64-bit .NET Core 4.6.27521.02)
+[xUnit.net 00:00:01.44]   Discovering: Actio.Api.Tests
+[xUnit.net 00:00:01.57]   Discovered:  Actio.Api.Tests
+[xUnit.net 00:00:00.01] xUnit.net VSTest Adapter v2.4.0 (64-bit .NET Core 4.6.27521.02)
+[xUnit.net 00:00:01.43]   Starting:    Actio.Api.Tests
+[xUnit.net 00:00:02.05]     Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted [FAIL]
+[xUnit.net 00:00:02.05]       Expected contentResult.Location to be equivalent to 
+[xUnit.net 00:00:02.05]       "activities/0d99ed8f-b87d-40ae-b552-b2dbff5a71be" with a length of 47, but 
+[xUnit.net 00:00:02.05]       "activities/0d99ed8f-b87d-40ae-b552-b2dbff5a71be/" has a length of 48, differs near "/" (index 47).
+[xUnit.net 00:00:02.05]       Stack Trace:
+[xUnit.net 00:00:02.05]         C:\Workspaces\fluentassertions\src\FluentAssertions\Execution\XUnit2TestFramework.cs(32,0): at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+[xUnit.net 00:00:02.05]         C:\Workspaces\fluentassertions\src\FluentAssertions\Execution\AssertionScope.cs(187,0): at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:02.05]         C:\Workspaces\fluentassertions\src\FluentAssertions\Primitives\StringEqualityValidator.cs(31,0): at FluentAssertions.Primitives.StringEqualityValidator.ValidateAgainstLengthDifferences()
+[xUnit.net 00:00:02.05]         C:\Workspaces\fluentassertions\src\FluentAssertions\Primitives\StringValidator.cs(41,0): at FluentAssertions.Primitives.StringValidator.Validate()
+[xUnit.net 00:00:02.05]         C:\Workspaces\fluentassertions\src\FluentAssertions\Primitives\StringAssertions.cs(100,0): at FluentAssertions.Primitives.StringAssertions.BeEquivalentTo(String expected, String because, Object[] becauseArgs)
+[xUnit.net 00:00:02.05]         /home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/Unit/ActivitiesControllerTest.cs(50,0): at Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted()
+[xUnit.net 00:00:02.05]         --- End of stack trace from previous location where exception was thrown ---
+[xUnit.net 00:00:02.07]   Finished:    Actio.Api.Tests
+----- Test Execution Summary -----
+
+Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted:
+    Outcome: Failed
+    Error Message:
+    Expected contentResult.Location to be equivalent to 
+"activities/0d99ed8f-b87d-40ae-b552-b2dbff5a71be" with a length of 47, but 
+"activities/0d99ed8f-b87d-40ae-b552-b2dbff5a71be/" has a length of 48, differs near "/" (index 47).
+    Stack Trace:
+       at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message) in C:\Workspaces\fluentassertions\src\FluentAssertions\Execution\XUnit2TestFramework.cs:line 32
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc) in C:\Workspaces\fluentassertions\src\FluentAssertions\Execution\AssertionScope.cs:line 187
+   at FluentAssertions.Primitives.StringEqualityValidator.ValidateAgainstLengthDifferences() in C:\Workspaces\fluentassertions\src\FluentAssertions\Primitives\StringEqualityValidator.cs:line 31
+   at FluentAssertions.Primitives.StringValidator.Validate() in C:\Workspaces\fluentassertions\src\FluentAssertions\Primitives\StringValidator.cs:line 41
+   at FluentAssertions.Primitives.StringAssertions.BeEquivalentTo(String expected, String because, Object[] becauseArgs) in C:\Workspaces\fluentassertions\src\FluentAssertions\Primitives\StringAssertions.cs:line 100
+   at Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted() in /home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/Unit/ActivitiesControllerTest.cs:line 50
+--- End of stack trace from previous location where exception was thrown ---
+    
+Total tests: 1. Passed: 0. Failed: 1. Skipped: 0
+
+----- Running test method "Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted" -----
+
+Microsoft(R) Build Engine versão 16.0.450+ga8dc7f1d34 para .NET Core 
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+  Actio.Common -> /home/isaquepf/repositories/dotnet/Actio/src/Actio.Common/bin/Debug/netstandard2.0/Actio.Common.dll
+  Actio.Domain -> /home/isaquepf/repositories/dotnet/Actio/src/Actio.Domain/bin/Debug/netstandard2.0/Actio.Domain.dll
+  Actio.Application -> /home/isaquepf/repositories/dotnet/Actio/src/Actio.Application/bin/Debug/netstandard2.0/Actio.Application.dll
+  Actio.Infraestructure -> /home/isaquepf/repositories/dotnet/Actio/src/Actio.Infraestructure/bin/Debug/netstandard2.0/Actio.Infraestructure.dll
+  Actio.Api -> /home/isaquepf/repositories/dotnet/Actio/src/Actio.Api/bin/Debug/netcoreapp2.2/Actio.Api.dll
+  Actio.Api.Tests -> /home/isaquepf/repositories/dotnet/Actio/tests/Actio.Api.Tests/bin/Debug/netcoreapp2.2/Actio.Api.Tests.dll
+
+Compilação com êxito.
+    0 Aviso(s)
+    0 Erro(s)
+
+Tempo Decorrido 00:00:01.87
+
+
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.0 (64-bit .NET Core 4.6.27521.02)
+[xUnit.net 00:00:01.40]   Discovering: Actio.Api.Tests
+[xUnit.net 00:00:01.53]   Discovered:  Actio.Api.Tests
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.0 (64-bit .NET Core 4.6.27521.02)
+[xUnit.net 00:00:01.44]   Starting:    Actio.Api.Tests
+[xUnit.net 00:00:01.85]   Finished:    Actio.Api.Tests
+----- Test Execution Summary -----
+
+Actio.Api.Tests.Unit.ActivitiesControllerTest.Activities_Controller_Post_Should_Return_Accepted:
+    Outcome: Passed
+    
+Total tests: 1. Passed: 1. Failed: 0. Skipped: 0
+
