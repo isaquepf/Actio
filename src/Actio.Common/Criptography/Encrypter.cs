@@ -8,7 +8,7 @@ namespace Actio.Common.Criptography
     private static readonly int SaltSize = 40;
     private static readonly int DeriveBytesInterationsCount = 10000;
 
-    public string GetSalt(string value)
+    public string GetSalt()
     {
       var random = new Random();
       var saltBytes = new byte[SaltSize];

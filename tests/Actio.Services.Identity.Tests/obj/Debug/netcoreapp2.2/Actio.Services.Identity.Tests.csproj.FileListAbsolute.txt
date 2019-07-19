@@ -12,3 +12,15 @@
 /home/isaquepf/repositories/dotnet/Actio/tests/Actio.Services.Identity.Tests/obj/Debug/netcoreapp2.2/Actio.Services.Identity.Tests.AssemblyInfo.cs
 /home/isaquepf/repositories/dotnet/Actio/tests/Actio.Services.Identity.Tests/obj/Debug/netcoreapp2.2/Actio.Services.Identity.Tests.dll
 /home/isaquepf/repositories/dotnet/Actio/tests/Actio.Services.Identity.Tests/obj/Debug/netcoreapp2.2/Actio.Services.Identity.Tests.pdb
+/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Services.Identity.Tests/bin/Debug/netcoreapp2.2/appsettings.json
+/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Services.Identity.Tests/bin/Debug/netcoreapp2.2/Actio.Application.dll
+/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Services.Identity.Tests/bin/Debug/netcoreapp2.2/Actio.Common.dll
+/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Services.Identity.Tests/bin/Debug/netcoreapp2.2/Actio.Domain.dll
+/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Services.Identity.Tests/bin/Debug/netcoreapp2.2/Actio.Infraestructure.dll
+/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Services.Identity.Tests/bin/Debug/netcoreapp2.2/Actio.Services.Identity.dll
+/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Services.Identity.Tests/bin/Debug/netcoreapp2.2/Actio.Domain.pdb
+/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Services.Identity.Tests/bin/Debug/netcoreapp2.2/Actio.Application.pdb
+/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Services.Identity.Tests/bin/Debug/netcoreapp2.2/Actio.Services.Identity.pdb
+/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Services.Identity.Tests/bin/Debug/netcoreapp2.2/Actio.Common.pdb
+/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Services.Identity.Tests/bin/Debug/netcoreapp2.2/Actio.Infraestructure.pdb
+/home/isaquepf/repositories/dotnet/Actio/tests/Actio.Services.Identity.Tests/obj/Debug/netcoreapp2.2/Actio.Services.Identity.Tests.csproj.CopyComplete
