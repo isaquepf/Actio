@@ -2941,5 +2941,6 @@
     "CSharpLanguageVersion": 703
   },
   "RootNamespace": "Actio.Services.Activities",
-  "Documents": []
+  "Documents": [],
+  "SerializationFormat": "0.1"
 }

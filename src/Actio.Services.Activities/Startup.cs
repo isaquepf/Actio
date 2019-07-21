@@ -22,9 +22,13 @@ namespace Actio.Services.Activities
 {
   public class Startup
   {
-    public Startup(IConfiguration configuration)
+    public Startup(IConfiguration configuration, IHostingEnvironment env)
     {
-      Configuration = configuration;
+      Configuration = new ConfigurationBuilder()
+              .AddJsonFile("appsettings.json") // Duplicate == Json1
+              .AddJsonFile($"appsettings.{env.EnvironmentName}.json") // Duplicate == Json1
+              .AddEnvironmentVariables() // Duplicate == Environment
+              .Build();
     }
 
     public IConfiguration Configuration { get; }

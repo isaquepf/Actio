@@ -1,0 +1,14 @@
+/home/isaquepf/repositories/dotnet/Actio/src/Actio.Application/bin/Release/netstandard2.0/Actio.Application.deps.json
+/home/isaquepf/repositories/dotnet/Actio/src/Actio.Application/bin/Release/netstandard2.0/Actio.Application.dll
+/home/isaquepf/repositories/dotnet/Actio/src/Actio.Application/bin/Release/netstandard2.0/Actio.Application.pdb
+/home/isaquepf/repositories/dotnet/Actio/src/Actio.Application/bin/Release/netstandard2.0/Actio.Common.dll
+/home/isaquepf/repositories/dotnet/Actio/src/Actio.Application/bin/Release/netstandard2.0/Actio.Domain.dll
+/home/isaquepf/repositories/dotnet/Actio/src/Actio.Application/bin/Release/netstandard2.0/Actio.Domain.pdb
+/home/isaquepf/repositories/dotnet/Actio/src/Actio.Application/bin/Release/netstandard2.0/Actio.Common.pdb
+/home/isaquepf/repositories/dotnet/Actio/src/Actio.Application/obj/Release/netstandard2.0/Actio.Application.csprojAssemblyReference.cache
+/home/isaquepf/repositories/dotnet/Actio/src/Actio.Application/obj/Release/netstandard2.0/Actio.Application.csproj.CoreCompileInputs.cache
+/home/isaquepf/repositories/dotnet/Actio/src/Actio.Application/obj/Release/netstandard2.0/Actio.Application.AssemblyInfoInputs.cache
+/home/isaquepf/repositories/dotnet/Actio/src/Actio.Application/obj/Release/netstandard2.0/Actio.Application.AssemblyInfo.cs
+/home/isaquepf/repositories/dotnet/Actio/src/Actio.Application/obj/Release/netstandard2.0/Actio.Application.csproj.CopyComplete
+/home/isaquepf/repositories/dotnet/Actio/src/Actio.Application/obj/Release/netstandard2.0/Actio.Application.dll
+/home/isaquepf/repositories/dotnet/Actio/src/Actio.Application/obj/Release/netstandard2.0/Actio.Application.pdb

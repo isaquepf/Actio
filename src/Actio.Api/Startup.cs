@@ -9,15 +9,22 @@ using Actio.Infraestructure.IOC.Mongo;
 using Actio.Infraestructure.Config.Mongo;
 using Actio.Infraestructure.Config.IOC;
 using Actio.Infraestructure.Config.Auth;
-
+using System;
 
 namespace Actio.Api
 {
   public class Startup
   {
-    public Startup(IConfiguration configuration)
+    public Startup(IConfiguration configuration, IHostingEnvironment env)
     {
-      Configuration = configuration;
+      Console.WriteLine($"Started on {env.EnvironmentName}");
+
+      Configuration = new ConfigurationBuilder()
+              .AddJsonFile("appsettings.json") // Duplicate == Json1
+              .AddJsonFile($"appsettings.{env.EnvironmentName}.json") // Duplicate == Json1
+              .AddEnvironmentVariables() // Duplicate == Environment
+              .Build();
+            
     }
 
     public IConfiguration Configuration { get; }

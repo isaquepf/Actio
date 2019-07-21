@@ -1,0 +1,55 @@
+version: "3.4"
+
+services:
+  start-dependencies:
+    image: dadarek/wait-for-dependencies
+    depends_on:
+      - mongo
+      - rabbit
+    command: rabbit:5672
+  
+
+  api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Docker
+    build: ../src/Actio.Api
+    links: 
+      - rabbit
+      - mongo
+    ports:
+      - '5000:5000'
+  
+
+  activities-service:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Docker
+    build: ../src/Actio.Services.Activities
+    links:
+      - rabbit
+      - mongo
+    ports:
+      - '5050:5050'
+    
+
+  identity-service:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Docker      
+    build: ../src/Actio.Services.Identity
+    links:
+      - rabbit
+      - mongo
+    ports:
+      - '5051:5051'
+
+  mongo:
+    image: mongo
+    volumes:
+      - ./data/db:/data/db
+    ports:
+      - '27017:27017'
+  rabbit:
+    image: rabbitmq:3.6.5-management
+    ports: 
+      - '5672:5672'
+      - '15672:15672'
+      
